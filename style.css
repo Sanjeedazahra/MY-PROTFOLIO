@@ -6,12 +6,12 @@
 
 .sidebar {
     background-color:rgb(207, 197, 197);
-    width: 10vw;
+    width: 150px;
     padding: 0 20px 0 0;
 }
 
 .sidebar nav {
-    padding: 37px 0;
+    padding: 61px 0;
    
   margin-right: 20px; 
 
@@ -20,7 +20,7 @@
 .sidebar nav li {
     list-style: none;
     font-size: 27px;
-    padding: 37px;
+    padding: 51px;
      white-space: nowrap;
       padding-right: 20px;
 }
@@ -71,6 +71,7 @@ font-family: 'Courier New', Courier, monospace;
 .moreabout{
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
+    margin-top: 23px;
 }
 .buttons{
     margin-top: 15px;
