@@ -5,15 +5,15 @@
 }
 
 .sidebar {
-    background-color:rgb(207, 197, 197);
+    background-color: rgb(207, 197, 197);
     width: 150px;
     padding: 0 20px 0 0;
 }
 
 .sidebar nav {
     padding: 61px 0;
-   
-  margin-right: 20px; 
+
+    margin-right: 20px;
 
 }
 
@@ -21,12 +21,12 @@
     list-style: none;
     font-size: 27px;
     padding: 51px;
-     white-space: nowrap;
-      padding-right: 20px;
+    white-space: nowrap;
+    padding-right: 20px;
 }
 
 .main {
-    background-color:white;
+    background-color: white;
     width: 90vw;
 }
 
@@ -55,41 +55,82 @@
 .divpic img {
     width: 274px;
 }
-.hello{
+
+.hello {
     font-size: 30px;
-    font-family:Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif
 }
-.name{
-font-size: 27px;
-font-weight: bold;
-font-family: 'Courier New', Courier, monospace;
+
+.name {
+    font-size: 27px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
 }
-.about{
+
+.about {
     font-size: 23px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.moreabout{
+
+.moreabout {
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     margin-top: 23px;
 }
-.buttons{
+
+.buttons {
     margin-top: 15px;
     border-radius: 10px;
-   
+
 }
-.buttons button{
+
+.buttons button {
     padding: 7px;
     border-radius: 30px;
-     color: rgb(147, 136, 136);
+    color: rgb(147, 136, 136);
 
-     background-color:rgb(33 33 74);
-     font-weight: bold;
-     margin: 10px;
-     cursor: pointer;
+    background-color: rgb(33 33 74);
+    font-weight: bold;
+    margin: 10px;
+    cursor: pointer;
 }
-.buttons button:hover{
+
+.buttons button:hover {
     background-color: rgb(147, 136, 136);
-    color:rgb(33 33 74);
-   
+    color: rgb(33 33 74);
+
+}
+
+.contctme {
+
+    padding: 144px 34px;
+
+
+}
+
+.contctme h1 {
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-align: center; */
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+ padding: 12px 0;
+}
+
+.contctme div {
+    padding: 10px 0;
+}
+
+.form-text {
+    font-size: 10px;
+    margin: 0 10px;
+    color: midnightblue;
+    padding: 2px;
+}
+.mb-3{
+    display: flex;
+    flex-direction: column;
+}
+.labal{
+    width: 17vw;
+    border-radius: 6px;
 }
