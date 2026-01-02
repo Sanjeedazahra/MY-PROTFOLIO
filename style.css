@@ -85,14 +85,18 @@
 }
 
 .buttons button {
-    padding: 7px;
+    padding: 6px 12px 7px 15px;
     border-radius: 30px;
     color: rgb(147, 136, 136);
 
     background-color: rgb(33 33 74);
     font-weight: bold;
-    margin: 10px;
+    margin: 1px;
     cursor: pointer;
+}
+
+.btn-sm {
+    margin: 0px;
 }
 
 .buttons button:hover {
@@ -109,11 +113,11 @@
 }
 
 .contctme h1 {
-    background-color: antiquewhite;
+    background-color: white;
     font-family: Arial, Helvetica, sans-serif;
     /* text-align: center; */
     /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
- padding: 12px 0;
+    padding: 12px 0;
 }
 
 .contctme div {
@@ -126,11 +130,106 @@
     color: midnightblue;
     padding: 2px;
 }
-.mb-3{
+
+.mb-3 {
     display: flex;
     flex-direction: column;
 }
-.labal{
+
+.labal {
     width: 17vw;
     border-radius: 6px;
 }
+/* .mainn{
+    padding-top: 53px;
+    margin-left: 27px;
+    height: 88px;
+    width: 100%;
+    background-color: brown; */
+
+    .main-container{
+        background-color:white;
+        
+        width: 100%;
+
+
+    }
+    .mainn{
+        background-color:white;
+     
+        height: 120px;
+    }
+ 
+   .mainn h1{
+    
+    padding: 62px 33px;
+   }
+   .into-1{
+    padding: 25px;
+    height: 155px;
+    background-color:white
+   }
+   .into-1 h1 span{
+   color: #a50b0b;
+
+    padding: 0px 0px 12px;
+   }
+   .third-bigdiv{
+    height: 300px;
+    background-color: aquamarine;
+    display: flex;
+
+   }
+   .t-first{
+    background-color: white;
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+   }
+   .t-first p{
+    font-weight: 600;
+   }
+   .info-item{
+padding: 9px 10px;
+ 
+
+   }
+   .t-second{
+    background-color:white;
+    width: 50%;
+   }
+   .skillcontainer{
+    margin-top: 40px;
+    background-color:white;
+    height: 200px;
+    padding: 20px 0px 0px 6px;
+
+   }
+   .skill{
+    width: 123px;
+    height: 6px;
+   border-radius: 6px;
+    border: 2px solid black;
+
+   }
+   .skillitem{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    text-transform: capitalize;
+   }
+   .hundered{
+    width: 267px;
+    background-color: rgb(62, 62, 9);
+
+   }
+   .css{
+    width: 255px;
+    background-color: red;
+   }
+   .j5{
+    width: 200px;
+    background: yellow;
+   }
+   
